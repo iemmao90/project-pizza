@@ -4,7 +4,11 @@
 // Your code goes here
 alert(
   `Welcome to our Javascript Pizzeria. Ready to Start? - Click 'OK' to begin.`
-)
+);
+
+let username = prompt("What's your name?");
+
+alert(`Hi and welcome ${username}`);
 
 // Step 2 - Food choice
 // Your code goes here
