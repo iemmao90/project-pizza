@@ -30,20 +30,16 @@ switch (foodChoice) {
     break;
   case '3':
     selectedFood = 'Salad';
-  default:
-    alert('Incorrect choice!');
     break;
+  default:
+    alert('Incorrect value!');
 }
 
 alert(`${selectedFood} is a good choice!`);
 
 // Step 3 - Subtype choice
 
-// let subtypeFoodChoice = prompt(`What kind of ${foodChoice}
 
-// Select by entering a number!`);
-
-// alert(`${foodChoice} is a good choice!`);
 
 // Step 4 - Age
 // Your code goes here
